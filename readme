@@ -1,0 +1,9 @@
+## install package
+pnpm i
+## start
+pnpm dev
+
+
+
+
+

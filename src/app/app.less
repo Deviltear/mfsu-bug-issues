@@ -1,0 +1,20 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+/* Override base SVG style to work with Ant Design */
+.anticon svg {
+  vertical-align: initial;
+}
+
+// common
+.design-link{
+  color: var(--primary-blue-1);
+  cursor: pointer;
+}
+
+// 货件管理 isa 信息提示要求黑色气泡最大宽度支持到260px UI升级改为白色气泡后删除此规则
+body{
+  .ant-tooltip{
+    max-width: 260px;
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "/demo": {
+    "target": "http://console.demo-inc.com",
+    "changeOrigin": true
+  },
+  "/mit-biz": {
+    "target": "http://mit.demo-inc.com",
+    "changeOrigin": true
+  },
+  "/ucmanage": {
+    "target": "http://console.demo-inc.com",
+    "changeOrigin": true
+  },
+  "/finance": {
+    "target": "http://oms.demo-inc.net",
+    "changeOrigin": true,
+    "withCredentials": true,
+    "cookieDomainRewrite": {
+      "mit.demo-inc.net": "localhost"
+    }
+  },
+  "/oms": {
+    "target": "http://oms.demo-inc.net",
+    "changeOrigin": true,
+    "withCredentials": true,
+    "cookieDomainRewrite": {
+      "mit.demo-inc.net": "localhost"
+    }
+  },
+  "/bi": {
+    "target": "http://oms.demo-inc.net",
+    "changeOrigin": true,
+    "withCredentials": true,
+    "cookieDomainRewrite": {
+      "mit.demo-inc.net": "localhost"
+    }
+  },
+  "/district": {
+    "target": "http://mit.demo-inc.net",
+    "changeOrigin": true,
+    "withCredentials": true,
+    "cookieDomainRewrite": {
+      "mit.demo-inc.net": "localhost"
+    }
+  },
+  "/uccas": {
+    "target": "http://console.demo-inc.com",
+    "changeOrigin": true
+  },
+  "/gftp": {
+    "target": "http://172.16.0.111:8890",
+    "changeOrigin": true,
+    "withCredentials": true,
+    "cookieDomainRewrite": {
+      "mit.demo-inc.net": "localhost"
+    }
+  },
+  "/lsp": {
+    "target": "http://oms.demo-inc.net",
+    "changeOrigin": true,
+    "withCredentials": true,
+    "cookieDomainRewrite": {
+      "mit.demo-inc.net": "localhost"
+    }
+  },
+  "/otp": {
+    "target": "http://oms.demo-inc.net",
+    "changeOrigin": true,
+    "withCredentials": true,
+    "cookieDomainRewrite": {
+      "mit.demo-inc.net": "localhost"
+    }
+  },
+  "/wmp": {
+    "target": "http://oms.demo-inc.net",
+    "changeOrigin": true,
+    "withCredentials": true,
+    "cookieDomainRewrite": {
+      "mit.demo-inc.net": "localhost"
+    }
+  },
+  "/trailer": {
+    "target": "http://oms.demo-inc.net",
+    "changeOrigin": true,
+    "withCredentials": true,
+    "cookieDomainRewrite": {
+      "mit.demo-inc.net": "localhost"
+    }
+  },
+  "/dms": {
+    "target": "http://oms.demo-inc.net",
+    "changeOrigin": true,
+    "withCredentials": true,
+    "cookieDomainRewrite": {
+      "mit.demo-inc.net": "localhost"
+    }
+  },
+  "/case": {
+    "target": "http://mit.demo-inc.com",
+    "changeOrigin": true
+  },
+  "/demoods": {
+    "target": "http://mit.demo-inc.com",
+    "changeOrigin": true
+  },
+  "/sdas": {
+    "target": "http://mit.demo-inc.com",
+    "changeOrigin": true
+  }
+}
